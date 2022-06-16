@@ -12,7 +12,7 @@ public class Driver {
 		
 		System.out.println("Current count:" + counter.getCount());
 		
-		counter.decrement();
+		counter.decrement(5);
 		
 		System.out.println("Current count:" + counter.getCount());
 
